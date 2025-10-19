@@ -1,4 +1,24 @@
 # React + Vite
+Farm Management App
+
+This project is a Farm Management application designed to help users track expenses, plan future objectives, and schedule events efficiently. Key features include:
+
+Expense tracking – monitor and manage farm-related expenses.
+
+Planning & goal setting – organize future plans and objectives for the farm.
+
+Calendar events – add and manage events using a calendar interface.
+
+The application is built with:
+
+React + Vite – for a modern, fast frontend.
+
+Material-UI – for a clean and responsive user interface.
+
+React Router – to experiment with routing and navigation.
+
+This project demonstrates practical skills in state management, UI design, and routing while providing a useful tool for farm management.
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
