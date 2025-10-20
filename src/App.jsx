@@ -15,7 +15,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Router>
+      <Router basename='/react-farm-management'>
         {/* Top Bar */}
         <TopBar />
 
