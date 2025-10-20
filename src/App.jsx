@@ -1,5 +1,5 @@
 import { ThemeProvider, CssBaseline, Box } from '@mui/material';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import theme from './theme';
 
 import Sidebar from './components/Layout/Sidebar';
@@ -15,7 +15,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Router basename='/react-farm-management'>
+      <Router>
         {/* Top Bar */}
         <TopBar />
 
